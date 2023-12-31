@@ -1,0 +1,128 @@
+Certainly! To add a different restaurant image link, you can replace the existing image URL in the code. Here's the modified code with a placeholder for a new image URL:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Food Restaurant</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5; /* Light grey background */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Dark grey text color */
+            text-align: center; /* Center-align content */
+        }
+
+        header {
+            background-color: #FF6F61; /* Coral color */
+            color: #fff;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #48D1CC; /* Medium turquoise */
+            color: #fff;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em; /* Set font size for the links */
+        }
+
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        section {
+            padding: 2em;
+            background-color: #FFFACD; /* Lemon chiffon background */
+        }
+
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding: 1em 0;
+        }
+
+        footer {
+            background-color: #9370DB; /* Medium purple footer */
+            color: #fff;
+            padding: 1em;
+        }
+
+        /* Additional styles for contact section */
+        .contact-section {
+            font-size: 1.2em; /* Keep a specific size for the contact section */
+            font-weight: bold; /* Make it bold */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://example.com/" target="_blank">
+    
+        </a>
+        <h1>Colorful Food Restaurant</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact" class="contact-section">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Restaurant</h2>
+        <p style="font-size: 1.2em;">Explore our delicious menu and enjoy a wonderful dining experience.</p>
+
+        <div class="menu-item" id="menu">
+            <h3>Chicken</h3>
+            <p>Our succulent chicken dishes are prepared with the finest ingredients, ensuring a delightful and flavorful experience.</p>
+        </div>
+        
+
+        <div class="menu-item">
+            <h3>Beef</h3>
+            <p>Savor the richness of our beef options, expertly crafted to satisfy your taste buds with every bite.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Sushi</h3>
+            <p>Indulge in the artistry of our sushi creations, made with fresh and high-quality ingredients for an authentic taste.</p>
+        </div>
+
+        <!-- Add more menu items as needed -->
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us for any inquiries or reservations.</p>
+
+        <!-- Add your contact form or details here -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Colorful Food Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
